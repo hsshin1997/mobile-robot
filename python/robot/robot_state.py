@@ -1,23 +1,22 @@
-import numpy as np
+from __future__ import annotations
 from dataclasses import dataclass
-from typing import Tuple
+import numpy as np
 
 @dataclass
 class RobotState:
-    """Represents the state of a differential drive robot."""
+    """Pose of a differential‑drive robot in ℝ²×S¹."""
     x: float = 0.0
     y: float = 0.0
-    theta: float = 0.0
+    theta: float = 0.0  # rad
 
-    def to_array(self) -> np.ndarray:
-        """Convert the robot state to a numpy array."""
-        return np.array([self.x, self.y, self.theta])
+    # ---------------- Convenience -----------------
+    def as_vector(self) -> np.ndarray:
+        return np.array([self.x, self.y, self.theta], dtype=float)
 
     @classmethod
-    def from_array(cls, arr: np.ndarray) -> 'RobotState':
-        """Create state from numpy array"""
-        return cls(x=arr[0], y=arr[1], theta=arr[2])
-    
-    def get_pose(self) -> Tuple[float, float, float]:
-        """Get robot pose (x, y, theta)"""
-        return self.x, self.y, self.theta
+    def from_vector(cls, vec: np.ndarray) -> "RobotState":
+        assert vec.shape == (3,), "Vector must be length‑3"
+        return cls(*vec)
+
+    def copy(self) -> "RobotState":
+        return RobotState(self.x, self.y, self.theta)
