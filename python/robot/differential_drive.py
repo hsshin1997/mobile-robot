@@ -8,7 +8,7 @@ class DifferentialDriveRobot:
     def __init__(self, wheel_radius: float = 0.05, wheelbase: float = 0.30):
         self.R = wheel_radius
         self.L = wheelbase
-
+    
     # -------- Kinematics --------
     def forward_kinematics(self, w_r: float, w_l: float) -> tuple[float, float]:
         """Return (v, omega) given wheel angular speeds."""
@@ -33,8 +33,31 @@ class DifferentialDriveRobot:
             y=state.y + y_dot * dt,
             theta=_wrap_to_pi(state.theta + theta_dot * dt),
         )
+    
+    # -------- Motion models --------
+    def motion_model(self, state: RobotState, u: np.ndarray, dt: float) -> RobotState:
+        x_hat = state.x + dt * u[0] * cos(state.theta)
+        y_hat = state.y + dt * u[0] * sin(state.theta)
+        theta_hat = _wrap_to_pi(state.theta + dt * u[1])
+        return RobotState(x=x_hat, y=y_hat, theta=theta_hat)
+
+    # -------- Jacobians of the process and measurement models --------
+    def motion_model_jacobian(self, state: RobotState, u: np.ndarray, dt: float) -> tuple[np.ndarray, np.ndarray]:
+        """Jacobian of the process model."""
+        F = np.array([
+            [1, 0, -dt * u[0] * sin(state.theta)],
+            [0, 1, dt * u[0] * cos(state.theta)],
+            [0, 0, 1]
+        ])
+
+        L = np.array([
+            [self.R / 2 * cos(state.theta), self.R / 2 * cos(state.theta)],
+            [self.R / 2 * sin(state.theta), self.R / 2 * sin(state.theta)],
+            [self.R / (2 * self.L), -self.R / (2 * self.L)]
+        ])
+
+        return F, L
 
 # ---------------- Utilities ----------------
-
 def _wrap_to_pi(angle: float) -> float:
     return (angle + np.pi) % (2 * np.pi) - np.pi

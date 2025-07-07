@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="tb3_world">
+    <!-- Physics, lighting, GUI defaults come from Gazebo -->
+    <include>  <!-- Ground plane -->
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>  <!-- Simple directional light -->
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Spawn point for TurtleBot3 Burger -->
+    <model name="turtlebot3_burger">
+      <include>
+        <uri>model://turtlebot3_burger</uri>
+      </include>
+      <pose>0 0 0.01 0 0 0</pose>
+    </model>
+  </world>
+</sdf>

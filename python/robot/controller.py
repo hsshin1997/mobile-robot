@@ -5,7 +5,7 @@ from robot.robot_state import RobotState
 from robot.differential_drive import _wrap_to_pi, DifferentialDriveRobot
 
 class PoseController:
-    """Go‑to‑goal pose controller (Samson style)."""
+    """Go-to-goal pose controller (Samson style)."""
     def __init__(self, k_rho=1.0, k_alpha=4.0, k_beta=-1.5, robot: DifferentialDriveRobot | None=None):
         self.k_rho, self.k_alpha, self.k_beta = k_rho, k_alpha, k_beta
         self.robot = robot or DifferentialDriveRobot()

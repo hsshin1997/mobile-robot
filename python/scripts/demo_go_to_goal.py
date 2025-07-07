@@ -10,7 +10,8 @@ if __name__ == "__main__":
     sim = Simulator(robot, controller, dt=0.02)
 
     start = RobotState(0.0, 0.0, 0.0)
-    goal = RobotState(1.5, 1.5, -np.pi )
+    goal = RobotState(1.5, 1.5, -np.pi)
 
     states = sim.run(start, goal, t_final=15.0)
     sim.animate(states)
+    sim.plot_trajectory(states)  # full path afterwards

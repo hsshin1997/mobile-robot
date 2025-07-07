@@ -4,7 +4,7 @@ from robot.robot_state import RobotState
 from robot.differential_drive import DifferentialDriveRobot
 
 class DynamicDifferentialDriveRobot(DifferentialDriveRobot):
-    """Torque‑driven DD model with viscous wheel friction."""
+    """Torque-driven DD model with viscous wheel friction."""
     def __init__(self, *, wheel_radius=0.05, wheelbase=0.30,
                  mass=4.0, inertia_z=0.06, wheel_inertia=0.002,
                  tau_max=0.8, viscous=0.2, dt=0.01):

@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# Python virtual-env
+.venv/
+
+# Python cache
+__pycache__/
