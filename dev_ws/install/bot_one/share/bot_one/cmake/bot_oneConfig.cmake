@@ -1,0 +1,1 @@
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/ament_cmake_core/bot_oneConfig.cmake

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/main/Documents/mobile-robot/dev_ws/src/bot_one" FILES "/opt/ros/kilted/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/bot_one/environment")

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/main/Documents/mobile-robot/dev_ws/src/bot_one" FILES "/home/main/Documents/mobile-robot/dev_ws/build/bot_one/ament_cmake_core/bot_oneConfig.cmake" "/home/main/Documents/mobile-robot/dev_ws/build/bot_one/ament_cmake_core/bot_oneConfig-version.cmake" "DESTINATION" "share/bot_one/cmake")

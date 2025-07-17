@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/main/Documents/mobile-robot/dev_ws/src/my_package" FILES "/home/main/Documents/mobile-robot/dev_ws/build/my_package/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/my_package")

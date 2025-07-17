@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/main/Documents/mobile-robot/dev_ws/build/bot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/main/Documents/mobile-robot/dev_ws/build/bot_one -- -j16 -l16
+[0.048s] Invoked command in '/home/main/Documents/mobile-robot/dev_ws/build/bot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/main/Documents/mobile-robot/dev_ws/build/bot_one -- -j16 -l16
+[0.049s] Invoking command in '/home/main/Documents/mobile-robot/dev_ws/build/bot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/main/Documents/mobile-robot/dev_ws/build/bot_one
+[0.055s] -- Install configuration: ""
+[0.055s] -- Execute custom install script
+[0.056s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/config/empty.yaml
+[0.056s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot.urdf.xacro
+[0.056s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot_core.xacro
+[0.056s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/launch/rsp.launch.py
+[0.056s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/worlds/empty.world
+[0.057s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/package_run_dependencies/bot_one
+[0.057s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/parent_prefix_path/bot_one
+[0.057s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/ament_prefix_path.sh
+[0.057s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/path.sh
+[0.058s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/path.dsv
+[0.058s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.bash
+[0.058s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.sh
+[0.058s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.zsh
+[0.059s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.dsv
+[0.059s] -- Symlinking: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/package.dsv
+[0.066s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/packages/bot_one
+[0.066s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/cmake/bot_oneConfig.cmake
+[0.066s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/cmake/bot_oneConfig-version.cmake
+[0.066s] -- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/package.xml
+[0.080s] Invoked command in '/home/main/Documents/mobile-robot/dev_ws/build/bot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/main/Documents/mobile-robot/dev_ws/build/bot_one

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_files("/home/main/Documents/mobile-robot/dev_ws/src/my_package" FILES "/home/main/Documents/mobile-robot/dev_ws/build/my_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/my_package" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")

@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/config/empty.yaml
+-- Symlinking: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot_core.xacro
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/launch/rsp.launch.py
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/worlds/empty.world
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/package_run_dependencies/bot_one
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/parent_prefix_path/bot_one
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/path.sh
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/environment/path.dsv
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.bash
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.sh
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.zsh
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/local_setup.dsv
+-- Symlinking: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/package.dsv
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/packages/bot_one
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/cmake/bot_oneConfig.cmake
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/cmake/bot_oneConfig-version.cmake
+-- Up-to-date symlink: /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/package.xml

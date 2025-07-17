@@ -1,0 +1,9 @@
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/uninstall.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/bot_one_uninstall.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/test.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/edit_cache.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/rebuild_cache.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/list_install_components.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/install.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/install/local.dir
+/home/main/Documents/mobile-robot/dev_ws/build/bot_one/CMakeFiles/install/strip.dir
