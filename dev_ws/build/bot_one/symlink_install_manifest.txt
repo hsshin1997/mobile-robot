@@ -2,6 +2,7 @@
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/inertial_macros.xacro
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot.urdf.xacro
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/description/robot_core.xacro
+/home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/launch/launch_sim.launch.py
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/launch/rsp.launch.py
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/bot_one/worlds/empty.world
 /home/main/Documents/mobile-robot/dev_ws/install/bot_one/share/ament_index/resource_index/package_run_dependencies/bot_one

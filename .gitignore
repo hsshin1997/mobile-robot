@@ -45,3 +45,8 @@
 
 # Python cache
 __pycache__/
+
+# build 
+build/
+install/
+log/
