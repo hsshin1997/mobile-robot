@@ -50,3 +50,9 @@ __pycache__/
 build/
 install/
 log/
+
+# vscode
+.vscode/
+
+# venv
+.mobilebotenv/

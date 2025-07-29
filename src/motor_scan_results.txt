@@ -1,0 +1,6 @@
+OpenCR Motor Scan Results
+Port: /dev/ttyACM0
+Baudrate: 57600
+Motors found: 1
+
+ID: 200, Model: Unknown (Model 20480)
